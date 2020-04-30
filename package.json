@@ -1,0 +1,28 @@
+{
+  "name": "reverse_engineering_authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avery1221/reverse_engineering_authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avery1221/reverse_engineering_authentication/issues"
+  },
+  "homepage": "https://github.com/avery1221/reverse_engineering_authentication#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "sequelize": "^5.21.7"
+  }
+}
